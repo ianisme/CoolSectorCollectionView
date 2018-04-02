@@ -1,0 +1,22 @@
+PODS:
+  - Masonry (0.6.4)
+  - SDWebImage (3.7.0):
+    - SDWebImage/Core (= 3.7.0)
+  - SDWebImage/Core (3.7.0)
+
+DEPENDENCIES:
+  - Masonry (= 0.6.4)
+  - SDWebImage (= 3.7.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  SDWebImage: b42db92951f9d565c55f1d7f1d5efe47e33a7515
+
+PODFILE CHECKSUM: 8b08d4e99b598965465ebc27d5fcc1f6166d5f2f
+
+COCOAPODS: 1.5.0.beta.1
