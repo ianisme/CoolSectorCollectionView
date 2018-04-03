@@ -16,6 +16,11 @@
 		4DFBD319207234AE0047DE7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBD318207234AE0047DE7E /* main.m */; };
 		4DFBD322207235BB0047DE7E /* CoolSectorCollectionLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBD321207235BB0047DE7E /* CoolSectorCollectionLayoutAttributes.m */; };
 		4DFBD326207236660047DE7E /* CoolSectorCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBD325207236660047DE7E /* CoolSectorCollectionViewLayout.m */; };
+		4DFBD34B207359A20047DE7E /* CoolSectorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBD34A207359A20047DE7E /* CoolSectorCollectionViewCell.m */; };
+		4DFBD34E20735AFE0047DE7E /* CoolSectorPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBD34D20735AFE0047DE7E /* CoolSectorPageControl.m */; };
+		4DFBD351207360600047DE7E /* CoolSectorCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBD350207360600047DE7E /* CoolSectorCollectionView.m */; };
+		4DFBD3542073626D0047DE7E /* CoolSectorCustomeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBD3532073626D0047DE7E /* CoolSectorCustomeCollectionView.m */; };
+		4DFBD357207362970047DE7E /* CoolSectorCustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBD356207362970047DE7E /* CoolSectorCustomCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,16 @@
 		4DFBD323207236300047DE7E /* CoolSectorConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolSectorConstant.h; sourceTree = "<group>"; };
 		4DFBD324207236660047DE7E /* CoolSectorCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolSectorCollectionViewLayout.h; sourceTree = "<group>"; };
 		4DFBD325207236660047DE7E /* CoolSectorCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolSectorCollectionViewLayout.m; sourceTree = "<group>"; };
+		4DFBD349207359A20047DE7E /* CoolSectorCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolSectorCollectionViewCell.h; sourceTree = "<group>"; };
+		4DFBD34A207359A20047DE7E /* CoolSectorCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolSectorCollectionViewCell.m; sourceTree = "<group>"; };
+		4DFBD34C20735AFE0047DE7E /* CoolSectorPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolSectorPageControl.h; sourceTree = "<group>"; };
+		4DFBD34D20735AFE0047DE7E /* CoolSectorPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolSectorPageControl.m; sourceTree = "<group>"; };
+		4DFBD34F207360600047DE7E /* CoolSectorCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolSectorCollectionView.h; sourceTree = "<group>"; };
+		4DFBD350207360600047DE7E /* CoolSectorCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolSectorCollectionView.m; sourceTree = "<group>"; };
+		4DFBD3522073626D0047DE7E /* CoolSectorCustomeCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolSectorCustomeCollectionView.h; sourceTree = "<group>"; };
+		4DFBD3532073626D0047DE7E /* CoolSectorCustomeCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolSectorCustomeCollectionView.m; sourceTree = "<group>"; };
+		4DFBD355207362970047DE7E /* CoolSectorCustomCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolSectorCustomCollectionViewCell.h; sourceTree = "<group>"; };
+		4DFBD356207362970047DE7E /* CoolSectorCustomCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolSectorCustomCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +100,10 @@
 				4DFBD30A207234AE0047DE7E /* AppDelegate.m */,
 				4DFBD30C207234AE0047DE7E /* ViewController.h */,
 				4DFBD30D207234AE0047DE7E /* ViewController.m */,
+				4DFBD3522073626D0047DE7E /* CoolSectorCustomeCollectionView.h */,
+				4DFBD3532073626D0047DE7E /* CoolSectorCustomeCollectionView.m */,
+				4DFBD355207362970047DE7E /* CoolSectorCustomCollectionViewCell.h */,
+				4DFBD356207362970047DE7E /* CoolSectorCustomCollectionViewCell.m */,
 				4DFBD31F207235680047DE7E /* Lib */,
 				4DFBD30F207234AE0047DE7E /* Main.storyboard */,
 				4DFBD312207234AE0047DE7E /* Assets.xcassets */,
@@ -103,6 +122,12 @@
 				4DFBD324207236660047DE7E /* CoolSectorCollectionViewLayout.h */,
 				4DFBD325207236660047DE7E /* CoolSectorCollectionViewLayout.m */,
 				4DFBD323207236300047DE7E /* CoolSectorConstant.h */,
+				4DFBD349207359A20047DE7E /* CoolSectorCollectionViewCell.h */,
+				4DFBD34A207359A20047DE7E /* CoolSectorCollectionViewCell.m */,
+				4DFBD34C20735AFE0047DE7E /* CoolSectorPageControl.h */,
+				4DFBD34D20735AFE0047DE7E /* CoolSectorPageControl.m */,
+				4DFBD34F207360600047DE7E /* CoolSectorCollectionView.h */,
+				4DFBD350207360600047DE7E /* CoolSectorCollectionView.m */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -208,10 +233,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DFBD30E207234AE0047DE7E /* ViewController.m in Sources */,
+				4DFBD351207360600047DE7E /* CoolSectorCollectionView.m in Sources */,
 				4DFBD319207234AE0047DE7E /* main.m in Sources */,
+				4DFBD3542073626D0047DE7E /* CoolSectorCustomeCollectionView.m in Sources */,
 				4DFBD30B207234AE0047DE7E /* AppDelegate.m in Sources */,
+				4DFBD34E20735AFE0047DE7E /* CoolSectorPageControl.m in Sources */,
 				4DFBD326207236660047DE7E /* CoolSectorCollectionViewLayout.m in Sources */,
 				4DFBD322207235BB0047DE7E /* CoolSectorCollectionLayoutAttributes.m in Sources */,
+				4DFBD357207362970047DE7E /* CoolSectorCustomCollectionViewCell.m in Sources */,
+				4DFBD34B207359A20047DE7E /* CoolSectorCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +385,11 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = DAW493MYAY;
 				INFOPLIST_FILE = CoolSectorCollectionView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rengfou.CoolSectorCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "840fb17d-a666-41e0-ac43-93cc8b8f53f9";
@@ -372,7 +406,11 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = DAW493MYAY;
 				INFOPLIST_FILE = CoolSectorCollectionView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rengfou.CoolSectorCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "840fb17d-a666-41e0-ac43-93cc8b8f53f9";

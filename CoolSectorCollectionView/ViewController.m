@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CoolSectorCollectionView.h"
+#import "CoolSectorCustomeCollectionView.h"
 
 @interface ViewController ()
 
@@ -23,6 +25,16 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)normalAction:(id)sender {
+    CoolSectorCollectionView *view = [[CoolSectorCollectionView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:view];
+    
+    [view loadViewPageCircleViewUrls:@[@"",@""]];
+}
+
+- (IBAction)customAction:(id)sender {
 }
 
 
