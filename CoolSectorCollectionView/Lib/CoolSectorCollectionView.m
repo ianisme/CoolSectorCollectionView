@@ -51,6 +51,7 @@
     closeButton.layer.cornerRadius = 16.0f;
     closeButton.backgroundColor = [UIColor redColor];
     [closeButton addTarget:self action:@selector(closeButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+    [closeButton setTitle:@" X " forState:UIControlStateNormal];
     
     CoolSectorPageControl *control = [[CoolSectorPageControl alloc] initWithFrame:CGRectMake(0, _collectionView.frame.origin.y + _collectionView.frame.size.height + 12.0f, self.bounds.size.width, 8)];
     control.pageIndicatorTintColor = [UIColor blueColor];
