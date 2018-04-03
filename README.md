@@ -5,6 +5,6 @@
 
 ### 效果演示：
 
- ![image](https://raw.githubusercontent.com/ianisme/CoolSectorCollectionView/master/demo.gif)
+ ![image](https://raw.githubusercontent.com/ianisme/CoolSectorCollectionView/master/demo.gif){:height="50%" width="50%"}
 
 
